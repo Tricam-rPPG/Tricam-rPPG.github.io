@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Given a video and a text prompt, Dreamix edits the video while maintaining fidelity to color, posture, object size and camera pose, resulting in a temporally consistent video.">
-  <meta property="og:title" content="Explainable Driver Activity Recognition Using Video Transformer in Highly Automated Vehicle"/>
+  <meta property="og:title" content="Intersection Safety Modeling Using Semantic Scene Graph and Graph Neural Network"/>
   <meta property="og:description" content="Given a video and a text prompt, Dreamix edits the video while maintaining fidelity to color, posture, object size and camera pose, resulting in a temporally consistent video."/>
   <meta property="og:url" content="https://dreamix-video-editing.github.io"/>
   <meta property="og:image" content="static/image/og_banner_image.png" />
@@ -11,7 +11,7 @@
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="Explainable Driver Activity Recognition Using Video Transformer in Highly Automated Vehicle">
+  <meta name="twitter:title" content="Intersection Safety Modeling Using Semantic Scene Graph and Graph Neural Network">
   <meta name="twitter:description" content="Given a video and a text prompt, Dreamix edits the video while maintaining fidelity to color, posture, object size and camera pose, resulting in a temporally consistent video.">
   <meta name="twitter:image" content="static/images/twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -19,11 +19,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Explainable Driver Activity Recognition Using Video Transformer in Highly Automated Vehicle</title>
+  <title>Intersection Safety Modeling Using Semantic Scene Graph and Graph Neural Network</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
+  <link rel="stylesheet" href="static/css/styles.css">
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
@@ -55,7 +56,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Explainable Driver Activity Recognition Using Video Transformer in Highly Automated Vehicle</h1>
+            <h1 class="title is-1 publication-title">Intersection Safety Modeling Using Semantic Scene Graph and Graph Neural Network</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
              <span class="author-block">
@@ -63,10 +64,7 @@
               </span>
               <span class="author-block">
                 <a href="https://www.vtti.vt.edu/staffdir/bio.php?&pn=119388" target="_blank">Abhijit Sarkar</a><sup>1</sup>
-              </span>
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/hirva-bhagat" target="_blank">Hirva Bhagat</a><sup>2,3</sup>
-              </span>              
+              </span>         
               <span class="author-block">
                 <a href="https://ece.vt.edu/people/profile/abbott.html" target="_blank">Lynn Abbott</a><sup>2</sup>
               </span>
@@ -75,7 +73,6 @@
             <div class="is-size-5 publication-authors">
               <span class="author-block"><sup>1</sup>Virginia Tech Transportation Institute,</span>
               <span class="author-block"><sup>2</sup>Bradley Department of Electrical and Computer Engineering, Virginia Tech</span>
-              <span class="author-block"><sup>3</sup>Department of Computer Science, Virginia Tech</span>
               <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution, <sup>†</sup>Indicates Equal Advising</small></span> -->
               <span class="eql-cntrb"><small></small></span>
             </div>
@@ -84,7 +81,7 @@
               <div class="publication-links">
                 <!-- Arxiv PDF link -->
                 <span class="link-block">
-                  <a href="https://ieeexplore.ieee.org/abstract/document/10186584/authors#authors" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://ieeexplore.ieee.org/abstract/document/11097800" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -92,16 +89,16 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/2302.01329" target="_blank"
+                <span class="link-block">
+                  <a href="https://github.com/VTTI/GNN-based-intersection-safety" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="ai ai-arxiv"></i>
+                      <i class="fab fa-github"></i>
                     </span>
-                    <span>arXiv</span>
+                    <span>GitHub</span>
                   </a>
-                </span> -->
+                </span>
+
               </div>
             </div>
       </div>
@@ -113,51 +110,14 @@
 
 
 
-
-
-
-
 <!-- Subject Driven Video Generation carousel -->
 <section class="hero teaser">
       <div class="hero-body ">
     <div class="container is-max-desktop">
   
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-gif1">
           <center>
-          <img src="static/images/cellphone_talking.gif" alt="Spatial variation in attention" width="500" height="500"/>
+          <img src="static/images/intersectionTitle.png" alt="Video Swin-B Transformer" width="1000" height="600"/>
           </center>
-        </div>
-
-        <div class="item item-gif2">
-          <center>
-          <img src="static/images/cellphone_texting.gif" alt="Spatial variation in attention" width="500" height="500"/>
-          </center>
-        </div>
-
-        <div class="item item-gif3">
-          <center>
-          <img src="static/images/center_stack_adjusting.gif" alt="Spatial variation in attention" width="500" height="500"/>
-          </center>
-        </div>
-
-        <div class="item item-gif4">
-          <center>
-          <img src="static/images/drinking.gif" alt="Spatial variation in attention" width="500" height="500"/>
-          </center>
-        </div>
-
-        <div class="item item-gif5">
-          <center>
-          <img src="static/images/eating.gif" alt="Spatial variation in attention" width="500" height="500"/>
-          </center>
-        </div>        
-
-        <div class="item item-gif6">
-          <center>
-          <img src="static/images/sun_visor_adjusting.gif" alt="Spatial variation in attention" width="500" height="500"/>
-          </center>
-        </div>
 
       </div>
     </div>
@@ -179,18 +139,16 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Distracted driving is one of the leading causes of road accidents. With the recent introduction of advanced
-            driver assistance systems and L2 vehicles, the role of driver attention has gained renewed interest. It is imperative for
-            vehicle manufacturers to develop robust systems that can identify distractions and aid in preventing such accidents in highly
-            automated vehicles. This paper mainly focuses on studying secondary behaviors, and their relative complexity to develop
-            a guide for auto manufacturers. In recent years, a few driver secondary action datasets and deep learning algorithms have
-            been created to address this problem. Despite their success in many domains, Convolutional Neural Network based deep
-            learning methods struggle to fully consider the overall context of an image, and focus on specific image features. We present
-            the use of Video Transformers on two challenging datasets, one of them being a grayscale low-quality dataset. We also
-            demonstrate how the novel concept of a Visual Dictionary can be used to understand the structural components of any secondary
-            behavior. Finally, we validate different components of the visual dictionary by studying the attention modules of the transformer
-            based model and incorporating explainability in the computer vision model. An activity is decomposed into multiple small
-            actions and attributes and the corresponding attention patches are highlighted in the input frame.
+            Traffic intersections are critical zones where vehicle and pedestrian interactions significantly impact road safety. 
+            This study presents a novel graph-based approach to model and analyze intersection traffic dynamics, leveraging 
+            Graph Neural Networks (GNNs) for risk assessment. By representing traffic participants and road infrastructure as a 
+            structured graph, we capture spatial-temporal relationships that influence crash likelihood. Using real-world intersection
+             video data, we construct semantic scene graphs to encode actor interactions and road topology, enabling a data-driven 
+             understanding of risk factors. Two GNN models, TransformerConv and GINEConv, are employed to assess safety risks, where 
+             TransformerConv captures dynamic interactions through adaptive attention weighting, and GINEConv models structured dependencies 
+             within the intersection network. Our findings demonstrate that this framework can effectively classify high-risk scenarios, 
+             threat assessment of each actors (node), characterize their interaction (edge), and provide near real time safety analysis 
+             with 79.8\% accuracy.  This provides a scalable method for proactive intersection safety monitoring. 
           </p>
         </div>
       </div>
@@ -201,20 +159,93 @@
 
 
 
+
 <section class="section hero is-small is-light">
   <div class="container is-max-desktop">
-    <div class="columns is-centered">
+    <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Method Overview: Video Swin-B Transformer</h2>
+          <h2 class="title is-3">Method</h2>
+
+          <h3 class="title is-4">Traffic Participant Detection and Tracking</h3>
+
+
+          <div class="gif-grid">
+          <div class="gif-item">
+            <img src="static/images/Media1.gif" alt="Media" />
+          </div>
+
+          <div class="gif-item">
+            <img src="static/images/Media2.gif" alt="Media" />
+          </div>
+
+          <div class="gif-item">
+            <img src="static/images/Media3.gif" alt="Media" />
+          </div>
+
+          <div class="gif-item">
+            <img src="static/images/Media4.gif" alt="Media" />
+          </div>          
+      </div>
+      <div class="level-set has-text-justified">
+        <p>
+          We use YOLOv7 for object detection and BoT-SORT for multi-object tracking, which jointly provide accurate detection, 
+          association, and re-identification of the traffic participants.
+        </p>
+      </div>
+
+          <!-- <div class="level-set has-text-justified">
+            <p>
+               The Top-1 and Top-3 accuracy for all the models
+              on SHRP2 and VTTIMLP01 datasets are summarized. 
+              Since the number of classes is at most 10 in either dataset,
+              we chose to use the Top-3 accuracy metric instead of the
+              commonly used Top-5 accuracy. It can be seen that Video
+              Swin has a Top-1 performance that is better or comparable to
+              state-of-the-art CNNs, while the Top-3 accuracy is better in
+              all cases.
+            </p>
+          </div> -->
+
+          <h3 class="title is-4">Homography Transformation</h3>
           <center>
-          <img src="static/images/swin.svg" alt="Video Swin-B Transformer" width="1000" height="600"/>
+          <img src="static/images/homography.png" alt="Workflow" width="800" height="480"/>
           </center>
           <div class="level-set has-text-justified">
             <p>
-               Overall architecture of the Video Swin-B Transformer. 
+              Pixel-to-GPS conversion maps camera image coordinates to geographic space by matching multiple image landmarks 
+              with known locations in Google Earth and estimating a homography. This further helps in transforming traffic participant
+              coordinates from the camera to GPS coordinates.
             </p>
           </div>
+
+          
+          <h3 class="title is-4">Road Graph</h3>
+          <center>
+          <img src="static/images/roadGraph.png" alt="roadGraph" width="800" height="480"/>
+          </center>
+          <div class="level-set has-text-justified">
+            <p>
+              We convert unconstrained road layouts into structured node graphs by decomposing road segments into lanelets, 
+              where each lanelet represents a single drivable lane with defined left and right boundaries labeled as either virtual 
+              (between lanes) or road boundaries (between road and non-road regions). Road maps are created using OpenStreetMap and 
+              processed with the Lanelet2 library, which incorporates both geometric and semantic traffic rules. Lanelets are overlaid 
+              on aerial imagery from Bing Maps for visualization, and the road structure is modeled as subgraphs capturing lanes, crosswalks, 
+              and intersections, with connectivity encoded in a matrix to unify static road elements and dynamic agents within a graph-based 
+              traffic representation.
+            </p>
+          </div>
+
+          <h3 class="title is-4">Semantic Scene Graph</h3>
+          <center>
+          <img src="static/images/sceneGraph.png" alt="sceneGraph" width="1000" height="600"/>
+          </center>
+
+          <h3 class="title is-4">Workflow</h3>
+          <center>
+          <img src="static/images/workflow.png" alt="Workflow" width="1000" height="600"/>
+          </center>
+
         </div>
       </div>
     </div>
@@ -224,31 +255,45 @@
 
 <section class="section hero is-small is-light">
   <div class="container is-max-desktop">
-    <div class="columns is-centered">
+    <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Explainable Action Recognition</h2>
+          <h2 class="title is-3">Results</h2>
 
+          <h3 class="title is-4">Accuracy</h3>
           <center>
-          <img src="static/images/spatial.svg" alt="Spatial variation in attention" width="1000" height="600"/>
+          <img src="static/images/accuracy.png" alt="Accuracy" width="750" height="450"/>
           </center>
-          <div class="level-set has-text-justified">
+          <!-- <div class="level-set has-text-justified">
             <p>
-              Variation in attention across various channels from the same layer of the network for 'Cellphone talking'
+               The Top-1 and Top-3 accuracy for all the models
+              on SHRP2 and VTTIMLP01 datasets are summarized. 
+              Since the number of classes is at most 10 in either dataset,
+              we chose to use the Top-3 accuracy metric instead of the
+              commonly used Top-5 accuracy. It can be seen that Video
+              Swin has a Top-1 performance that is better or comparable to
+              state-of-the-art CNNs, while the Top-3 accuracy is better in
+              all cases.
             </p>
-          </div>
+          </div> -->
 
-          <div style="margin: 2rem 0;"></div>
-
+          <h3 class="title is-4">Confusion Matrix</h3>
           <center>
-          <img src="static/images/temporal.svg" alt="Temporal variation in attention" width="1000" height="600"/>
+          <img src="static/images/confusion.png" alt="Confusion Matrix" width="500" height="300"/>
           </center>
-          <div class="level-set has-text-justified">
+          <!-- <div class="level-set has-text-justified">
             <p>
-              Left to right: Temporal variation in attention as the driver finishes eating and reaches for the bag of chips 
+               The Top-1 and Top-3 accuracy for all the models
+              on SHRP2 and VTTIMLP01 datasets are summarized. 
+              Since the number of classes is at most 10 in either dataset,
+              we chose to use the Top-3 accuracy metric instead of the
+              commonly used Top-5 accuracy. It can be seen that Video
+              Swin has a Top-1 performance that is better or comparable to
+              state-of-the-art CNNs, while the Top-3 accuracy is better in
+              all cases.
             </p>
-          </div>
-          
+          </div> -->
+
         </div>
       </div>
     </div>
@@ -261,14 +306,15 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@INPROCEEDINGS{10186584,
-  author={Sonth, Akash and Sarkar, Abhijit and Bhagat, Hirva and Abbott, Lynn},
-  booktitle={2023 IEEE Intelligent Vehicles Symposium (IV)}, 
-  title={Explainable Driver Activity Recognition Using Video Transformer in Highly Automated Vehicle}, 
-  year={2023},
-  pages={1-8},
-  keywords={Deep learning;Visualization;Computer vision;Dictionaries;Codes;Computational modeling;Transformers;transformers;action recognition;explainable AI;visual dictionary},
-  doi={10.1109/IV55152.2023.10186584}}
+    <pre><code>@INPROCEEDINGS{11097800,
+  author={Sonth, Akash and Abbott, A. Lynn and Sarkar, Abhijit},
+  booktitle={2025 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={Intersection Safety Modeling Using Semantic Scene Graph and Graph Neural Network}, 
+  year={2025},
+  pages={569-576},
+  keywords={Pedestrians;Roads;Semantics;Transformers;Graph neural networks;Real-time systems;Safety;Topology;Vehicle dynamics;Videos},
+  doi={10.1109/IV64158.2025.11097800}}
+
 </code></pre>
   </div>
 </section>
