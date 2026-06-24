@@ -165,6 +165,31 @@ body {
   margin-top: 1.5rem;
 }
 
+.hero-publication-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: center;
+}
+
+.hero-publication-links .link-block {
+  margin: 0;
+}
+
+.dul-link {
+  background-color: #861f41;
+  border-color: #861f41;
+  color: #ffffff;
+}
+
+.dul-link:hover,
+.dul-link:focus {
+  background-color: #6f1735;
+  border-color: #6f1735;
+  color: #ffffff;
+}
+
 .hero-figure,
 .paper-figure,
 .modality-card {
