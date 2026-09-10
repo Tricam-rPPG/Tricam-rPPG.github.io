@@ -108,6 +108,22 @@ body {
     height: 100%;
 }
 
+.video-fallback {
+  color: #4f5d68;
+  font-size: 0.95rem;
+  margin-top: 0.75rem;
+}
+
+.video-overview-container {
+  max-width: 795px !important;
+  width: calc(71vw - 2.85rem) !important;
+}
+
+#video-overview {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .publication-body img {
 }
 
@@ -349,5 +365,9 @@ body {
 
   .stat-number {
     font-size: 1.45rem;
+  }
+
+  .video-overview-container {
+    width: calc(100vw - 2rem) !important;
   }
 }
